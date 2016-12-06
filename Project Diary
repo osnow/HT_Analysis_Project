@@ -1,5 +1,13 @@
 Oliver Snow's Diary
 
+5/12/2016
+
+Still waiting to get our dataset so in the meantime I have been looking into how to use SOAPdenovo as this will be our chosen assembler. I think we will also try ABySS to try to compare assemblers. I have been reading about how to make our config file for running the assembler and they provide a template on their website, however, it is difficult to know what to change until we have our data. 
+I have also been thinking about how we will extract the chloroplast contigs from the assembly and was reading into the mummer package. It seems like we might be able to use the NUCmer sub module to align our assembled contigs with a chloroplast reference genome as it was stated that these genes are well conserved. In this way we could get those contigs that are chloroplast. It seems like NUCmer is pretty straightforward to run but I am not sure what the output will be, as in whether we just get an alignment or if we can extract the whole contigs. We could possibly do some filtering before running NUCmer as well by controlling for GC content or coverage as this would reduce the memory load for NUCmer and maybe make our alignment better. 
+And for genome annotation we can probably just use blast along with the refseq for the chloroplast genome but that is far away at this point.
+
+...
+
 30/11/2016
 
 Met today before the seminar with my group members to discuss preliminary plans for the project and layout the different steps. 
