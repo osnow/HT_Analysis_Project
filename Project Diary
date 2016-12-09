@@ -1,5 +1,13 @@
 Oliver Snow's Diary
 
+8/12/2016
+
+We received our dataset yesterday and had the second seminar session for the projects. Our data is one fastq file containing alternating paired reads from nuclear, mitochondria and chloroplast. 
+According to Lars, it will be a majority of nuclear DNA but the only DNA with enough coverage to assemble will be chloroplast DNA. We can then assume that most of our contigs will be chloroplast. However, we will have to still use a method to extract the contigs, either using NUCmer or BLAST. 
+I attempted to run SOAPdenovo, but unfortunately it will only take paired reads in one file if it is a regular fasta file. I started looking at converting the file from fastq to fasta or to separate the reads into two separate files.
+When I looked at the file though, I noticed that the reads were not interleaved as they should be. I brought this to Lars' attention and apparently we received the wrong file.
+I look forward to getting the next file and hopefully I can easily run this in SOAP. 
+
 5/12/2016
 
 Still waiting to get our dataset so in the meantime I have been looking into how to use SOAPdenovo as this will be our chosen assembler. I think we will also try ABySS to try to compare assemblers. I have been reading about how to make our config file for running the assembler and they provide a template on their website, however, it is difficult to know what to change until we have our data. 
