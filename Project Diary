@@ -1,5 +1,16 @@
 Oliver Snow's Diary
 
+13/12/2016
+
+Lars fixed our data on the weekend so that we now have two fastq files with one set of reads in one file and their pairs in the other file. This is much easier for running SOAP anyway so that was good. 
+I created a config file for running SOAP which can be found in our project directory on UPPMAX. The main parameters I chose were insert size=300, max read length=100, and kmer as 63 based on what other people had used.
+It took me quite a while to figure out how call SOAP on the command line as the documentation was surprisingly bad on this detail. Turns you have to specify the mode and call it as "SOAPdenovo-63mer" with options and config file after. 
+Once I figured this out, I wrote a small sbatch script to submit the job to UPPMAX. I used the project code for our class, chose p=node and n=8 based on what we used in the labs (not sure if this has changed for the project). I also submitted for a time of 12 hrs because I had no idea how long it would take. 
+The job submitted normally and once making it through the queue it ran quite quickly ~10min or so. This seemed alarmingly fast, however, there are plenty of output files and no glaring errors in the log file.
+I will have to spend a bit of time to check and make sure things ran properly and that we have received the right output. Perhaps we will meet with or talk to Lars before the break to make sure that we are on the right track. 
+
+...
+
 8/12/2016
 
 We received our dataset yesterday and had the second seminar session for the projects. Our data is one fastq file containing alternating paired reads from nuclear, mitochondria and chloroplast. 
@@ -7,6 +18,8 @@ According to Lars, it will be a majority of nuclear DNA but the only DNA with en
 I attempted to run SOAPdenovo, but unfortunately it will only take paired reads in one file if it is a regular fasta file. I started looking at converting the file from fastq to fasta or to separate the reads into two separate files.
 When I looked at the file though, I noticed that the reads were not interleaved as they should be. I brought this to Lars' attention and apparently we received the wrong file.
 I look forward to getting the next file and hopefully I can easily run this in SOAP. 
+
+...
 
 5/12/2016
 
