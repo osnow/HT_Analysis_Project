@@ -6,7 +6,7 @@ Lars fixed our data on the weekend so that we now have two fastq files with one 
 I created a config file for running SOAP which can be found in our project directory on UPPMAX. The main parameters I chose were insert size=300, max read length=100, and kmer as 63 based on what other people had used.
 It took me quite a while to figure out how call SOAP on the command line as the documentation was surprisingly bad on this detail. Turns you have to specify the mode and call it as "SOAPdenovo-63mer" with options and config file after. 
 Once I figured this out, I wrote a small sbatch script to submit the job to UPPMAX. I used the project code for our class, chose p=node and n=8 based on what we used in the labs (not sure if this has changed for the project). I also submitted for a time of 12 hrs because I had no idea how long it would take. 
-The job submitted normally and once making it through the queue it ran quite quickly ~10min or so. This seemed alarmingly fast, however, there are plenty of output files and no glaring errors in the log file.
+The job submitted normally and once making it through the queue it ran quite quickly ~10min or so. This seemed alarmingly fast, however, there are plenty of output files and no glaring errors in the log file. The log file says that the N50 is 212bp which is very small but perhaps this is okay considering the genome is small and we are not dealing with a full data set. 
 I will have to spend a bit of time to check and make sure things ran properly and that we have received the right output. Perhaps we will meet with or talk to Lars before the break to make sure that we are on the right track. 
 
 ...
