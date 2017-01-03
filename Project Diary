@@ -1,5 +1,11 @@
 Oliver Snow's Diary
 
+3/1/2017
+
+It has been a crazy Christmas break back home with tons of family time so I haven't been able to look at the project in a couple weeks. However, it is a new year so it is back to work. 
+After talking to Lars before the break, I decided to run SOAPdenovo again with kmer=30 as 63 seemed a bit high. Marina was going to run Abyss with the same two kmer values for comparison. I submitted the job before my flights and once back in Canada, I checked the output and saw that everything had run nicely.
+This run took significatnly longer at 23 min which is to be expected with a lower kmer, but still quite quick. Surprisingly the N50 got worse at 129 bp which is still quite small. 
+Perhaps this is acceptable for the purposes of our project and we will have to move on to the next steps. Taner is working on using mummer to extract chloroplast contigs and then to annotate them with blast. I will check in with the others and make sure we are on track as there are not many days left for the project. 
 13/12/2016
 
 Lars fixed our data on the weekend so that we now have two fastq files with one set of reads in one file and their pairs in the other file. This is much easier for running SOAP anyway so that was good. 
