@@ -1,5 +1,12 @@
 Oliver Snow's Diary
 
+4/1/2017
+
+After talking to Marina and comparing the results between Abyss and SOAP, we decided to go ahead with her Abyss results with K=64. This gave fairly good N50 and seemed to do the scaffolding step much better. 
+It looks like Taner has started looking at using exonerate to align the contigs to a reference and possibly to do annotation as well. Hopefully through the annotation step we can find the inverted repeats as well 
+
+...
+
 3/1/2017
 
 It has been a crazy Christmas break back home with tons of family time so I haven't been able to look at the project in a couple weeks. However, it is a new year so it is back to work. 
