@@ -3,7 +3,9 @@ Oliver Snow's Diary
 4/1/2017
 
 After talking to Marina and comparing the results between Abyss and SOAP, we decided to go ahead with her Abyss results with K=64. This gave fairly good N50 and seemed to do the scaffolding step much better. 
-It looks like Taner has started looking at using exonerate to align the contigs to a reference and possibly to do annotation as well. Hopefully through the annotation step we can find the inverted repeats as well 
+It looks like Taner has started looking at using exonerate to align the contigs to a reference and possibly to do annotation as well. Hopefully through the annotation step we can find the inverted repeats as well. 
+I have been looking at how to get a genbank file out of the annotation step so that we can use it as input to OGdraw. I have also started to plan the layout for our poster and work on a template but we need some data and figures first. 
+
 
 ...
 
