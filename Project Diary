@@ -1,5 +1,17 @@
 Oliver Snow's Diary
 
+13/01/2017
+
+We all met yesterday to finish up the poster and to finalize some of our data. Taner used Dogma (after doing an alignment with exonerate against the reference genome) to successfully annotate the genome and we created a very nice circular drawing with all the identified genes on there from OGdraw. 
+Marina and I made a small bar chart to add to the poster comparing our assemblies. After further analysis, I think that my assembly with SOAPdenovo did not run fully or properly as it seemed to skip over the scaffolding step. I suspect that it was filtering some of the contigs out or excluding them in some way. 
+It would have been nice to spend some more time understanding all of the parameters for SOAP and to optimize the kmer and other settings more. Marina's work with Abyss seemed to go much smoother and so we continued with her results. 
+We made some attempts at finding the inverted repeat using a tool called Reputer and also EMBOSS einverted. We found it hard to decipher Reputer's results and how to make sense of all the different repeats. EMBOSS gave a more clear output and seemed to identify 14 inverted repeats of which 4 had 100% identity. The longest of these was only 20bp long and we had no idea which was "the" IR that is supposed to be perfectly conserved. 
+Again, it would have been great to spend more time exploring this more and to get feedback from Lars but time was limited. Another thing we discussed and would have liked to do was compare our assembled genome to other related genomes such as the white spruce and try to see what differences they might have. 
+I think in general, we are satisfied with our results and I suppose no project is ever completely finished. There were lots more tools that we would have liked to explore and more questions we could have tried to answer but I guess that will have to be for some later date. It was good to actually see how the process of genome assembly and annotation is actually done and I think it would be cool to work on the assembly of a novel genome in the future that hasn't already been completed like the spruce chloroplast.
+I look forward to presenting our poster on Monday (hopefully everything goes fine with the printing) and seeing what all the other groups have done. 
+
+...
+
 12/1/2017
 
 It appears that Taner has pulled through and has successfully annotated our assembly and we submitted it to OGdraw and were able to get a nice visual representation of the genome.
