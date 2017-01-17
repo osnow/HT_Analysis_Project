@@ -1,5 +1,16 @@
 Oliver Snow's Diary
 
+17/01/2017
+
+Yesterday we had the final poster presentation which was quite enjoyable. It felt good to share our work with our classmates and I felt fairly good about our project and how our poster turned out despite not having achieved everything we wanted. 
+After talking to Lars, it was clear that we had used the wrong tool to search for the long inverted repeat as EMBOSS searches only for small, highly similar repeats. Given more time it would have been good to look into other tools such as Nucmer which could create a dotplot for us and hopefully show where the inverted repeat was.
+Additionally, it would have been good to do more quality control after our assembly such as FRC or looking at GC content/chloroplast genes rather than just going with the best N50. 
+It was also nice to see what others had worked on and it was good to get a refresher on the other topics we learned in the course as I feel like I have been totally lost in the world of genome assembly and forgot about things like protein inference. 
+It was interesting to talk to Lucas' graphic designer friends about our poster and about poster presentations in general. It was good practice to try to present our work to a non expert and it was fun to discuss the platform of posters and what purpose they serve in scientific communication and maybe how they could be improved. 
+All in all, I think we learned a lot from this project both about the tools for genome assembly and about how to create and present a successful poster. 
+
+...
+
 13/01/2017
 
 We all met yesterday to finish up the poster and to finalize some of our data. Taner used Dogma (after doing an alignment with exonerate against the reference genome) to successfully annotate the genome and we created a very nice circular drawing with all the identified genes on there from OGdraw. 
